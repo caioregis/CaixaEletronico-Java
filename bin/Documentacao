@@ -1,0 +1,15 @@
+Refatorar o código de exemplo, garantindo o seu funcionamento de acordo com as técnicas de CleanCode utilizadas em sala.
+
+
+A aplicação deve passar no seguinte teste:
+Consulta Saldo: 0
+Depositar: 1 nota de cada (5, 10, 20, 50, 100)
+Consultar Saldo: 185
+Sacar 50
+Consultar Saldo: 135 (1 nota de cada, exceto a de 50)
+Sacar 35
+Consultar Saldo: 100 (uma nota de 100)
+Sacar 120: mensagem de erro
+Sacar 80: mensagem de erro
+Sacar 100
+Consultar Saldo: 0
